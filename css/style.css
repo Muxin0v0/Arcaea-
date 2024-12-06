@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header li{
+    display: inline;
+}
+header{
+    background-color: #000000;
+    height: 80px;
+    width:100%;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top: 0;
+    line-height:80px;
+}
+header li{
+    display:inline;
+    margin-right: 10vw;
+}
+header a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+header a:hover{
+    text-decoration: underline;
+}
+h1{
+    color:aliceblue;
+    line-height:80px;
+    position: absolute;
+    left:0px;
+    background-image: url(../images/OIP-C\ \(1\).jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    width: 420px;
+    text-indent: -9999px;
+}
+.one{
+    background-color: antiquewhite;
+    color: white;
+    height:120vh;
+    background-image: url(../images/74e30f90dd6aa04541a15f4c6c8ca647b04e9c6b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    background-color: antiquewhite;
+    color: white;
+    height:240vh;
+    background-image: url(../images/beijing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.two p{
+    
+    color: white;
+    margin: 50px;
+    font-weight: bold;
+}
+.three{
+    background-color: rgb(175, 117, 230);
+    color: white;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+body{
+    overflow: auto;
+
+}
+.juese{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url(../images/5324410d715fe4def5a7c0c8967e7f41502512799.jpg);
+    height:120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+.juese div{
+    width:600px;
+    text-align: center;
+}
+.juese img{
+    width:100%;
+}
+.danqu{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: space-between;
+    background-image: url(../images/5324410d715fe4def5a7c0c8967e7f41502512799.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+}
+.danqu img{
+    width:65%;
+    border-radius:  10px;;
+    align-items: center;
+    padding: 100px 90px 80px;
+
+}
+.danqu div{
+    text-align: center;
+    justify-items: center;
+
+}
+.gushi{
+    display:flex;
+}
+.aaa{
+    width:35%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.aaa p{
+    text-align: center;
+    line-height: 3em;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gushi{
+    background-color: whitesmoke;
+}
