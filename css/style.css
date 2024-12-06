@@ -12,13 +12,13 @@ header{
 }
 header ul{
     position:absolute;
-    right:5vw;
+    right:1vw;
     top: 0;
     line-height:80px;
 }
 header li{
     display:inline;
-    margin-right: 8vw;
+    margin-right: 10vw;
 }
 header a{
     color:aliceblue;
